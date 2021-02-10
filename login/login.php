@@ -19,12 +19,12 @@ if (isset($_POST['login'])) {
 	}
 }
 ?>
-<title>HEARTCHECK LOGIN</title>
+<title>HEARTCHECK SIGNUP</title>
 <script type="text/javascript" src="script/ajax.js"></script>
 <?php include('../container.php');?>
 
 <div class="container">
-	<h2>HEARTCHECK SIGNUP</h2>		
+	<h2>HEARTCHECK LOGIN </h2>		
 	<div class="row">
 		<div class="col-md-4 col-md-offset-4 well">
 			<form role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="loginform">
