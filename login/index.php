@@ -3,12 +3,12 @@ session_start();
 include('header.php');
 include_once("db_connect.php");
 ?>
-<title>Sruthi Login & Registration</title>
+<title>HEARTCHECK </title>
 <script type="text/javascript" src="script/ajax.js"></script>
 <?php include('container.php');?>
 
 <div class="container">
-	<h2>Sruthi Login & Registration</h2>	
+	<h2>HEARTCHECK </h2>	
 		
 		<br>
 		<br>
