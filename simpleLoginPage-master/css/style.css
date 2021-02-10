@@ -1,0 +1,116 @@
+/*
+    Coded By othmane kahtal :othmanekahtal@gmail.com
+    font-family: 'Montserrat', sans-serif;
+    green color :#00ad5f
+;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #00ad5f;
+}
+body {
+  background-color: rgba(205, 208, 211, 0.5);
+  padding-top: 10vh;
+}
+main {
+  width: 65vw;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 5px 5px 5px #00000014, -5px -5px 5px #00000014,
+    5px -5px 5px #00000014, -5px 5px 5px #00000014;
+  /*problem in shadow*/
+}
+main content {
+  display: flex;
+  height: 80vh;
+}
+main content .login_image img {
+  width: 30vw;
+  height: 80vh;
+}
+content .login_inputs {
+  font-family: "Montserrat", sans-serif;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+content .login_inputs .inputs {
+  padding: 130px 20px;
+}
+content .login_inputs .inputs h2 {
+  color: rgb(148, 148, 148);
+  padding: 15px 0;
+}
+content .login_inputs .inputs .inpt {
+  display: flex;
+}
+content .login_inputs .inputs .inpt input {
+  border: solid 1px rgba(148, 148, 148, 0.452);
+  padding: 10px 15px;
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(148, 148, 148);
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+input[type="text"] {
+  background-image: url("../images/001-user.png");
+}
+input[type="password"] {
+  background-image: url("../images/003-password.png");
+}
+input[type="submit"] {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #00ad5f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 15px;
+  transition: all 0.55s ease;
+}
+input[type="submit"]:hover {
+  background-color: white;
+  color: #00ad5f;
+}
+input[type="submit"]:active {
+  color: #04874c;
+}
+
+content .login_inputs .forget p {
+  font-size: 14px;
+  color: rgb(148, 148, 148);
+}
+.singup_button button {
+  width: 100%;
+  border: none;
+  color: #00ad5f;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  outline: none;
+  transition: all 0.55s ease;
+  cursor: pointer;
+}
+
+.singup_button button:hover {
+  background-color: #00ad5f;
+  color: white;
+}
+
+.singup_button button:active {
+  background-color: #04874c;
+  color: white;
+}
