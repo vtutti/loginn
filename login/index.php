@@ -21,7 +21,7 @@ include_once("db_connect.php");
 				<?php if (isset($_SESSION['user_id'])) { ?>
 				<li><p class="navbar-text"><strong>Welcome!</strong> You're signed in as <strong><?php echo $_SESSION['user_name']; ?></strong></p></li>
 				<li><a href="logout.php">Log Out</a></li>
-				<li><a href="https://heartcheck1.herokuapp.com/"> Click to redict for HeartCheck</li>
+				<li><a href="https://heartcheck1.herokuapp.com/"> Click to redirect for HeartCheck</li>
 				<?php } else { ?>
 				<li><a href="login.php">Login</a></li>
 				<li><a href="register.php">Sign Up</a></li>
