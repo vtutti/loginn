@@ -3,12 +3,16 @@ session_start();
 include('header.php');
 include_once("db_connect.php");
 ?>
-<title>HEARTCHECK </title>
+.nav navbar-nav navbar-left {
+  
+  text-align: center;
+}
+<title style="text-align:center">HEARTCHECK </title>
 <script type="text/javascript" src="script/ajax.js"></script>
 <?php include('container.php');?>
 
 <div class="container">
-	<h2>HEARTCHECK </h2>	
+	<h2 style="text-align:center">HEARTCHECK </h2>	
 		
 		<br>
 		<br>
