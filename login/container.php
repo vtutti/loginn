@@ -9,11 +9,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="https://HC.herokuapp.com/" class="navbar-brand">Login</a>
+          <a href="https://login018.herokuapp.com/" class="navbar-brand">Login</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="https://HC.herokuapp.com/">Home</a></li>
+            <li class="active"><a href="https://login018.herokuapp.com/">Home</a></li>
            
           </ul>
          
