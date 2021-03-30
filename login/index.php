@@ -3,6 +3,27 @@ session_start();
 include('header.php');
 include_once("db_connect.php");
 ?>
+<style>
+.button5 {
+  background-color:#FFB6C1; 
+  border-color: black;
+  border-radius: 5px;  
+  color: black; 
+  font-family: Bahnschrift Light;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button5:hover {
+  background-color: #FFBCD9;
+  color: white;
+}
+
+  
+  a.black
+  {
+    color: black;
+}</style>
 <div class="hero-body">
       <div class="container">
         <center>
