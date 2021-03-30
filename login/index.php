@@ -41,8 +41,7 @@ include_once("db_connect.php");
 <div class="container">
 	<h2 style="text-align:center"> </h2>	
 		
-		<br>
-		<br>
+	
 		<div class="collapse navbar-collapse" id="navbar1">
 			<table class="center">
 				<tr>
