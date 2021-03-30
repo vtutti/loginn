@@ -33,7 +33,7 @@ include_once("db_connect.php");
 	      </center>
       </div>
     </div><br><br><br>
-<button class="button button5"  style="float: left;"> <a href="logout.php" class="black">Log out</a></button>
+
 <title style="text-align:center"> </title>
 <script type="text/javascript" src="script/ajax.js"></script>
 <?php include('container.php');?>
@@ -52,6 +52,9 @@ include_once("db_connect.php");
 				<li><p class="navbar-text"><strong>Welcome!  <?php echo $_SESSION['user_name']; ?></strong></p></li>
 				
 				<li><a href="https://heartcheck1.herokuapp.com/"> Click to redirect for HeartCheck</li>
+					<br>
+					OR<br>
+					<button class="button button5"  style="float: left;"> <a href="logout.php" class="black">Log out</a></button>
 				<?php } else { ?>
 				<li><a href="login.php">Login</a></li>
 				<li><a href="register.php">Sign Up</a></li>
