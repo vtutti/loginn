@@ -32,7 +32,7 @@ include_once("db_connect.php");
           <img src="logo-text.png" alt="HeartCheck"  width="1190vh" height="190vh">
 	      </center>
       </div>
-    </div>
+    </div><br><br><br>
 <button class="button button5"  style="float: left;"> <a href="logout.php" class="black">Log out</a></button>
 <title style="text-align:center"> </title>
 <script type="text/javascript" src="script/ajax.js"></script>
