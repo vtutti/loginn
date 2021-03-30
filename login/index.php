@@ -6,8 +6,13 @@ include_once("db_connect.php");
 <div class="hero-body">
       <div class="container">
         
-          <img src="logo-text.png" alt="HeartCheck"  width="1000vh" height="180vh">
-        
+          <img src="logo-text.png" alt="HeartCheck"  width="1280vh" height="200vh">
+         <section id="img" class="section">
+    
+    <div class="container" >
+     <p style="position: absolute;bottom: 50%,top: 50%,transform: translate(-50%,50%);">
+      <h1 class="title is-size-3-tablet is-size-4-mobile has-text-centered">
+	      <i class="fas fa-heartbeat"></i></div>
       </div>
     </div>
 
