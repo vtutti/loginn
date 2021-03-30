@@ -12,7 +12,7 @@ include_once("db_connect.php");
 	      </center>
       </div>
     </div>
-
+<button class="button button5"  style="float: right;"> <a href="logout.php" class="black">Log out</a></button>
 <title style="text-align:center"> </title>
 <script type="text/javascript" src="script/ajax.js"></script>
 <?php include('container.php');?>
@@ -29,7 +29,7 @@ include_once("db_connect.php");
 			<ul class="nav navbar-nav navbar-left" style="font-size:30px">
 				<?php if (isset($_SESSION['user_id'])) { ?>
 				<li><p class="navbar-text"><strong>Welcome!  <?php echo $_SESSION['user_name']; ?></strong></p></li>
-				<li><a href="logout.php">Log Out</a></li>
+				
 				<li><a href="https://heartcheck1.herokuapp.com/"> Click to redirect for HeartCheck</li>
 				<?php } else { ?>
 				<li><a href="login.php">Login</a></li>
