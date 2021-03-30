@@ -8,7 +8,7 @@ include_once("db_connect.php");
         <center>
 		</br>
 	      </br>
-          <img src="logo-text.png" alt="HeartCheck"  width="900vh" height="170vh">
+          <img src="logo-text.png" alt="HeartCheck"  width="1000vh" height="180vh">
 	      </center>
       </div>
     </div>
