@@ -11,7 +11,7 @@ include_once("db_connect.php");
   color: black; 
   font-family: Bahnschrift Light;
   font-size: 18px;
-  font-weight: bold;
+
 }
 
 .button5:hover {
@@ -33,7 +33,7 @@ include_once("db_connect.php");
 	      </center>
       </div>
     </div>
-<button class="button button5"  style="float: right;"> <a href="logout.php" class="black">Log out</a></button>
+<button class="button button5"  style="float: left;"> <a href="logout.php" class="black">Log out</a></button>
 <title style="text-align:center"> </title>
 <script type="text/javascript" src="script/ajax.js"></script>
 <?php include('container.php');?>
