@@ -32,7 +32,7 @@ include_once("db_connect.php");
           <img src="logo-text.png" alt="HeartCheck"  width="1190vh" height="190vh">
 	      </center>
       </div>
-    </div><br><br><br>
+    </div>
 
 <title style="text-align:center"> </title>
 <script type="text/javascript" src="script/ajax.js"></script>
@@ -52,7 +52,7 @@ include_once("db_connect.php");
 				<li><p class="navbar-text"><strong>Welcome!  <?php echo $_SESSION['user_name']; ?></strong></p></li>
 				
 				<li><a href="https://heartcheck1.herokuapp.com/"> Click to redirect for HeartCheck</li>
-					<br>
+					<br><br><br><br>
 					OR<br>
 					<button class="button button5"  style="float: left;"> <a href="logout.php" class="black">Log out</a></button>
 				<?php } else { ?>
