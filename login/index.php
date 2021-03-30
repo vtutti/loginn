@@ -13,7 +13,7 @@ include_once("db_connect.php");
       </div>
     </div>
 
-<title style="text-align:center">HEARTCHECK </title>
+<title style="text-align:center"> </title>
 <script type="text/javascript" src="script/ajax.js"></script>
 <?php include('container.php');?>
 
