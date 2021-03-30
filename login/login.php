@@ -19,6 +19,15 @@ if (isset($_POST['login'])) {
 	}
 }
 ?>
+<div class="hero-body">
+      <div class="container">
+        <center>
+		</br>
+	      </br>
+          <img src="logo-text.png" alt="HeartCheck"  width="1190vh" height="190vh">
+	      </center>
+      </div>
+    </div>
 <title></title>
 <script type="text/javascript" src="script/ajax.js"></script>
 <?php include('../container.php');?>
