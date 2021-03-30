@@ -18,7 +18,7 @@ include_once("db_connect.php");
 <?php include('container.php');?>
 
 <div class="container">
-	<h2 style="text-align:center">HEARTCHECK </h2>	
+	<h2 style="text-align:center"> </h2>	
 		
 		<br>
 		<br>
