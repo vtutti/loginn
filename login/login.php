@@ -19,7 +19,7 @@ if (isset($_POST['login'])) {
 	}
 }
 ?>
-<title>HEARTCHECK SIGNUP</title>
+<title></title>
 <script type="text/javascript" src="script/ajax.js"></script>
 <?php include('../container.php');?>
 
