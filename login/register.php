@@ -37,7 +37,7 @@ if (isset($_POST['signup'])) {
 	}
 }
 ?>
-<title>HEARTCHECK SIGNUP</title>
+<title></title>
 <script type="text/javascript" src="script/ajax.js"></script>
 <?php include('container.php');?>
 
