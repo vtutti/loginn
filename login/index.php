@@ -6,7 +6,7 @@ include_once("db_connect.php");
 <div class="hero-body">
       <div class="container">
         
-          <img src="./static/logo-text.png" alt="HeartCheck"  width="1280vh" height="200vh">
+          <img src="logo-text.png" alt="HeartCheck"  width="1280vh" height="200vh">
         
       </div>
     </div>
