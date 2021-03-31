@@ -6,7 +6,7 @@ include_once("db_connect.php");
 <style>
 .button5 {
   background-color:#FFB6C1; 
-  border-color: black;
+  border-color: white;
   border-radius: 5px;  
   color: black; 
   font-family: Bahnschrift Light;
