@@ -50,7 +50,7 @@ include_once("db_connect.php");
 				<?php if (isset($_SESSION['user_id'])) { ?>
 				<li><p class="navbar-text"><strong>Welcome!  <?php echo $_SESSION['user_name']; ?></strong></p></li>
 				
-				<li><a href="https://heartcheck1.herokuapp.com/"  target="_blank"> Click to redirect for HeartCheck</a></li>
+				<li><a href="https://heartcheck1.herokuapp.com/"  target="_self"> Click to redirect for HeartCheck</a></li>
 					<br><br><br>
 					OR<br>
 					<button class="button button5"  style="float: left;"> <a href="logout.php" class="black">Log out</a></button>
